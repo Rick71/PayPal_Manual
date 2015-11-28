@@ -60,10 +60,8 @@
 		1D6178A51C0A243F0086A329 /* PayPal Manual */ = {
 			isa = PBXGroup;
 			children = (
-				1D6178A91C0A243F0086A329 /* AppDelegate.h */,
-				1D6178AA1C0A243F0086A329 /* AppDelegate.m */,
-				1D6178AC1C0A243F0086A329 /* ViewController.h */,
-				1D6178AD1C0A243F0086A329 /* ViewController.m */,
+				1D6178C11C0A24640086A329 /* Controllers */,
+				1D6178C01C0A24470086A329 /* Main */,
 				1D6178AF1C0A243F0086A329 /* Main.storyboard */,
 				1D6178B51C0A243F0086A329 /* Assets.xcassets */,
 				1D6178B71C0A243F0086A329 /* LaunchScreen.storyboard */,
@@ -80,6 +78,24 @@
 				1D6178A71C0A243F0086A329 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D6178C01C0A24470086A329 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1D6178A91C0A243F0086A329 /* AppDelegate.h */,
+				1D6178AA1C0A243F0086A329 /* AppDelegate.m */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		1D6178C11C0A24640086A329 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D6178AC1C0A243F0086A329 /* ViewController.h */,
+				1D6178AD1C0A243F0086A329 /* ViewController.m */,
+			);
+			name = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
