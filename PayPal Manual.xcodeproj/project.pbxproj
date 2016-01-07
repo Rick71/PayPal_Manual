@@ -60,8 +60,8 @@
 		1D6178A51C0A243F0086A329 /* PayPal Manual */ = {
 			isa = PBXGroup;
 			children = (
-				1D6178C11C0A24640086A329 /* Controllers */,
 				1D6178C01C0A24470086A329 /* Main */,
+				1D6178C11C0A24640086A329 /* Controllers */,
 				1D6178AF1C0A243F0086A329 /* Main.storyboard */,
 				1D6178B51C0A243F0086A329 /* Assets.xcassets */,
 				1D6178B71C0A243F0086A329 /* LaunchScreen.storyboard */,
@@ -318,6 +318,7 @@
 				1D6178BF1C0A243F0086A329 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
