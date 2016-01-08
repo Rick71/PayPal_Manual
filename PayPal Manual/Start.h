@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PayPalMobile.h"
 
-@interface ViewController : UIViewController
 
+@interface Start : UIViewController<PayPalPaymentDelegate>
+
+- (IBAction)btnPagar:(id)sender;
 
 @end
 
