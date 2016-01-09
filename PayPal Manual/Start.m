@@ -59,7 +59,7 @@
     
     // Amount, currency, and description
     payment.amount = [[NSDecimalNumber alloc] initWithString:@"39.95"];
-    payment.currencyCode = @"USD";
+    payment.currencyCode = @"MXN";
     payment.shortDescription = @"Awesome saws";
     
     // Use the intent property to indicate that this is a "sale" payment,
@@ -69,7 +69,7 @@
     // To place an Order, and defer both Authorization and Capture to
     // your server, use PayPalPaymentIntentOrder.
     // (PayPalPaymentIntentOrder is valid only for PayPal payments, not credit card payments.)
-    payment.intent = PayPalPaymentIntentSale;
+    payment.intent = PayPalPaymentIntentAuthorize;
     
     // If your app collects Shipping Address information from the customer,
     // or already stores that information on your server, you may provide it here.
